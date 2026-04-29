@@ -1,0 +1,50 @@
+{
+  "name": "mfront-ui-exp",
+  "version": "0.0.2",
+  "description": "Experimental UI library for MFront",
+  "scripts": {},
+  "dependencies": {},
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "author": {
+    "name": "Touhid Mia",
+    "url": "https://hmtmcse.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmtmcse/mfront-ui-exp"
+  },
+  "homepage": "https://github.com/hmtmcse/mfront-ui-exp#readme",
+  "bugs": {
+    "url": "https://github.com/banglafighter/mfront-cli/issues"
+  },
+  "packageManager": "pnpm@10.28.2",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/index.mjs",
+        "require": "./dist/index.js",
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      }
+    }
+  },
+  "keywords": []
+}
