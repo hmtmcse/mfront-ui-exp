@@ -58,7 +58,7 @@ export interface InputFieldPropsBase extends InputAndFramePropsBase {
     disabled?: boolean
     placeholder?: string
     type?: AllInputType
-    hideMe?: boolean
+    isHidden?: boolean
     formHook?: FormHook
     defaultValue?: MixType
 }
