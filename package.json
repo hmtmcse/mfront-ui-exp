@@ -1,9 +1,8 @@
 {
   "name": "mfront-ui-exp",
-  "version": "0.0.2",
+  "version": "0.0.3-alpha.1",
   "description": "Experimental UI library for MFront",
   "scripts": {},
-  "dependencies": {},
   "license": "Apache-2.0",
   "main": "src/index.ts",
   "module": "src/index.ts",
